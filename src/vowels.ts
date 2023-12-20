@@ -41,6 +41,6 @@ export default function getPluralSuffix(word: string): string {
   const suffixVowel = vowelMatch[lastVowel(word)];
 
   console.log(word, ":", word + suffixConsonant + suffixVowel + "р");
-  // if (suffixConsonant === undefined || suffixVowel === undefined) return "";
+  if (suffixConsonant === undefined || suffixVowel === undefined) return "";
   return suffixConsonant + suffixVowel + "р";
 }
