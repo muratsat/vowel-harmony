@@ -4,6 +4,8 @@ interface StringMap {
 const vowelMatch: StringMap = {};
 vowelMatch["а"] = "а";
 vowelMatch["о"] = "о";
+vowelMatch["ё"] = "о";
+vowelMatch["ю"] = "а";
 vowelMatch["е"] = "е";
 vowelMatch["э"] = "е";
 vowelMatch["и"] = "е";
