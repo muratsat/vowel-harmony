@@ -13,6 +13,7 @@ vowelMatch["ы"] = "а";
 vowelMatch["у"] = "а";
 vowelMatch["я"] = "а";
 vowelMatch["ү"] = "ө";
+vowelMatch["ө"] = "ө";
 
 const vowels = "аяэеыиоөёуүю";
 const isVowel = (letter: string): boolean => vowels.includes(letter);
