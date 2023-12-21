@@ -30,7 +30,7 @@ const lastVowel = (word: string): string => {
 };
 
 function getSuffixConsonant(word: string): string {
-  word = word.replace("ь", "");
+  word = word.toLowerCase().replace("ь", "");
   const lastLetter = word[word.length - 1];
   if (isVowel(lastLetter) || "йр".includes(lastLetter)) return "л";
   if (isKatkalan(lastLetter)) return "т";
